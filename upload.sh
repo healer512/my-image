@@ -1,6 +1,7 @@
 #!/bin/sh
 
-time = "chenp"
+time=$(date)
+read -p "Enter some information > " messae
 git add -A
-git commit -m chenp
+git commit -m "$time-$messae"
 git pull
