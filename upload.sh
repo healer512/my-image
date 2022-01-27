@@ -1,6 +1,6 @@
 #!/bin/sh
 
-time = $1
-time
-git add .
-git commit -m time
+time = "chenp"
+git add -A
+git commit -m chenp
+git pull
